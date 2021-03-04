@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <h1>Formulario HTML</h1>
+        <form action="enviar.php" method="get" autocomplete="off">
+            
+            <fieldset>
+                <table>
+                <tr>
+                    <legend>Digite seus dados</legend>
+                    <td> <label for="name">Nome:</label></td>
+                    <td> <input type="text" name="nome" id="nome" size="30" placeholder="Digite seu nome" > </td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="text" name="email" id="email" size="30" placeholder="Digite seu email"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="telefone">Telefone:</label></td>
+                    <td><input type="text" name="telefone" id="telefone" size="30" placeholder="Digite seu telefone"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="senha">Senha:</label></td>
+                    <td><input type="password" name="senha" id="senha" size="30" placeholder="Digite sua senha(MAX 40 Caracteres)"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="data">Data de Nascimento:</label></td>
+                    <td><input type="date" name="data" id="data"></td>
+                </tr>
+                <tr>
+                    <td><label for="genero">Genero musical favorito:</label></td>
+                    <td>
+                        <input type="checkbox" name="axe" id="axe">
+                        <label for="axe">Axé</label>
+                        <br>
+                        <input type="checkbox" name="pop" id="pop">
+                        <label for="pop">Pop</label>
+                        <br>
+                        <input type="checkbox" name="corsa" id="corsa">
+                        <label for="corsa">Corsa</label>
+                        <br>
+                        <input type="checkbox" name="rock" id="rock">
+                        <label for="rock">Rock</label>
+                        <br>
+                        <input type="checkbox" name="samba" id="samba">
+                        <label for="samba">Samba</label>
+                        <br>
+                        <input type="checkbox" name="pagode" id="pagode">
+                        <label for="pagode">Pagode</label>
+                        <br>
+                        <input type="checkbox" name="sertanejo" id="sertanejo">
+                        <label for="sertanejo">Sertanejo</label>
+                        <br>
+                        <input type="checkbox" name="eletronica" id="eletronica">
+                        <label for="eletronica">Eletronica</label>
+                        <br>
+                        <input type="checkbox" name="gospel" id="gospel">
+                        <label for="gospel">Gospel</label>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="noticias">Receber notícias por E-mail:</label></td>
+                    <td><input type="radio" name="noticias" id="sim">
+                        <label for="sim">Sim</label>
+                        <input type="radio" name="noticias" id="nao">
+                        <label for="nao">Não</label> </td>
+                </tr>
+                <tr>
+                    <td><label for="estado">Estado:</label></td>
+                    <td><select name="estado" id="estado">
+                            <option value="Selecione">--Selecione--</option>
+                        <optgroup label="Norte">
+                            <option value="Acre">Acre</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Amapá">Amapá</option>
+                            <option value="Pará">Pará</option>
+                            <option value="Rondonia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Tocantins">Tocantins</option>
+                        </optgroup>
+                        <optgroup label="Nordeste">
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceará">Ceará</option>
+                            <option value="Maranhão">Maranhão</option>
+                            <option value="Paraíba">Paraíba</option>
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piauí">Piauí</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Sergipe">Sergipe</option>
+                        </optgroup>
+                        <optgroup label="Centro-Oeste">
+                            <option value="Distrito Federal">Distrito Federal</option>
+                            <option value="Goiás">Goiás</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option> 
+                        </optgroup>
+                        <optgroup label="Sudeste">
+                            <option value="Espirito Santo">Espírito Santo</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        </optgroup>
+                        <optgroup label="Sul">
+                            <option value="Paraná">Paraná</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                        </optgroup>
+                    </select></td>
+
+                </tr>
+                <tr>
+                    <td><label for="comentario">Comentários</label></td>
+                    <td><textarea name="comentario" id="comentario" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enviar" id="enviar" name="enviar">
+                    <input type="reset" value="Limpar">
+                    <button type="submit"><img src="foguete.png" alt="Avião subindo" width="60" height="60"></button>
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+        </form>
+</body>
+</html>
