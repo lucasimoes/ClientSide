@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+}
+
+.cabecalho{
+    background-color: tomato;
+    height: 80px;
+    position: relative;
+}
+.cabecalho h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    width: 500px;
+    margin-left: 430px;
+    padding: 10px;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+}
+.image{
+    width: 70px;
+    margin-left: 450px;
+}
+.image img{
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 6em;
+}
+.navbar{
+    color: black;
+    border-radius: 4px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    background-color: tomato;
+    padding: 3px 15px;
+    border-radius: 8px;
+}
+.imageselo{
+    margin-left: 500px;
+    margin-top: 90px;
+}
+#seloconfiança{
+    width: 300px;
+    height: 300px;
+}
+@media only screen and (max-width: 625px){
+    #seloconfiança{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 15em;
+    }
+}
+.imagefarol{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+#imagefarol{
+    width: 300px;
+    height: 300px;
+}
+.descricaofarol{
+    border-radius: 8px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    top: 300px;
+    width: 250px;
+    margin-left: 650px;
+}
+.imageparachoque{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+#imageparachoque{
+    width: 300px;
+    height: 300px;
+}
+.descricaoparachoque{
+    border-radius: 8px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    top: 300px;
+    width: 250px;
+    margin-left: 650px;
+}
+.imageturbina{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+#imageturbina{
+    width: 300px;
+    height: 300px;
+}
+.descricaoturbina{
+    border-radius: 8px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    top: 300px;
+    width: 250px;
+    margin-left: 650px;
+}
+.rodape{
+    background-color: rgb(253, 133, 112);
+    height: 150px;
+    margin-top: 15px;
+    text-align: right;
+}
+#informacoes{
+    margin-right: 1em;
+
+}
